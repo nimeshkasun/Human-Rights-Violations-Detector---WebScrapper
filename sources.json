@@ -20,7 +20,7 @@
   {
     "id": "024b4720-d824-45f6-b6ce-d14175e1df86",
     "name": "UN Human Rights (OHCHR) \u2013 News",
-    "url": "https://www.ohchr.org/en/news-and-events/news",
+    "url": "https://www.ohchr.org/en/latest",
     "category": "government",
     "is_dynamic": false,
     "enabled": true,
@@ -41,6 +41,15 @@
     "url": "https://www.bbc.com/news/world",
     "category": "public_news",
     "is_dynamic": true,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "id": "f28247d5-8dc9-4ce8-b95c-abd65d3155e6",
+    "name": "Human Rights Commission of Sri Lanka",
+    "url": "https://www.hrcsl.lk/news/articles",
+    "category": "government",
+    "is_dynamic": false,
     "enabled": true,
     "notes": ""
   }

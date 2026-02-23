@@ -401,6 +401,7 @@ def _menu_sources():
 
 _SETTINGS_KEYS = [
     ("save_scraped_pages",   "Save raw HTML pages  (true/false)"),
+    ("scrape_depth",         "Scrape depth  (1 = index only, 2 = follow article links)"),
     ("dedup_window_hours",   "Deduplication window in hours  (number)"),
     ("respect_robots_txt",   "Respect robots.txt  (true/false)"),
     ("chrome_headless",      "Run Chrome headless  (true/false)"),

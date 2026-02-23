@@ -86,6 +86,7 @@ ALL_HRV_KEYWORDS: list[str] = [
 # ── Default settings (written to settings.json on first run) ───────────────────
 DEFAULT_SETTINGS: dict = {
     "save_scraped_pages": False,          # feature toggle
+    "scrape_depth": 2,                    # 1 = index page only; 2 = follow article links
     "scheduler": {
         "enabled": False,
         "frequency": "daily",             # daily | weekly | hourly
