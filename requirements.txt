@@ -1,0 +1,16 @@
+# Human Rights Violations Detector – Python dependencies
+
+# HTTP / HTML parsing
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0          # faster BS4 parser (optional but recommended)
+
+# Selenium + browser automation
+selenium>=4.18.0
+webdriver-manager>=4.0.1   # auto-downloads ChromeDriver
+
+# Scheduling
+schedule>=1.2.0
+
+# Utilities
+python-dateutil>=2.9.0     # extended date parsing (optional enhancement)

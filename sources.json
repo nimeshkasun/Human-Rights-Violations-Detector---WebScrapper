@@ -1,0 +1,47 @@
+[
+  {
+    "id": "44affc70-a8e0-4934-9392-951141f9975c",
+    "name": "Amnesty International \u2013 News",
+    "url": "https://www.amnesty.org/en/latest/news/",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Leading human rights NGO"
+  },
+  {
+    "id": "aabfdd8f-8bad-4ae8-b2a9-eeb33840e0eb",
+    "name": "Human Rights Watch",
+    "url": "https://www.hrw.org/news",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "id": "024b4720-d824-45f6-b6ce-d14175e1df86",
+    "name": "UN Human Rights (OHCHR) \u2013 News",
+    "url": "https://www.ohchr.org/en/news-and-events/news",
+    "category": "government",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "UN Office of the High Commissioner for Human Rights"
+  },
+  {
+    "id": "30bba6e2-2a86-435e-9004-106307faeabe",
+    "name": "Reuters \u2013 World News",
+    "url": "https://www.reuters.com/world/",
+    "category": "public_news",
+    "is_dynamic": true,
+    "enabled": true,
+    "notes": "Major wire service \u2013 JS-rendered"
+  },
+  {
+    "id": "8955f42b-51d7-4dd0-ad1a-494454ddcdef",
+    "name": "BBC News \u2013 World",
+    "url": "https://www.bbc.com/news/world",
+    "category": "public_news",
+    "is_dynamic": true,
+    "enabled": true,
+    "notes": ""
+  }
+]

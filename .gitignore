@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# App runtime files
+settings.json
+hrv_trace.log
+data/
+scraped_pages/
+
+# Keep sources.json in version control (it's the user's source list)
+# Uncomment below to exclude it too:
+# sources.json
