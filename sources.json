@@ -52,5 +52,185 @@
     "is_dynamic": false,
     "enabled": true,
     "notes": ""
+  },
+  {
+    "id": "b1c2d3e4-f5a6-7890-bcde-f01234567890",
+    "name": "Al Jazeera – Human Rights",
+    "url": "https://www.aljazeera.com/tag/human-rights/",
+    "category": "public_news",
+    "is_dynamic": true,
+    "enabled": true,
+    "notes": "Global news network with strong human rights coverage"
+  },
+  {
+    "id": "c2d3e4f5-a6b7-8901-cdef-012345678901",
+    "name": "The Guardian – Human Rights",
+    "url": "https://www.theguardian.com/law/human-rights",
+    "category": "public_news",
+    "is_dynamic": true,
+    "enabled": true,
+    "notes": ""
+  },
+  {
+    "id": "d3e4f5a6-b7c8-9012-defa-123456789012",
+    "name": "Associated Press – World News",
+    "url": "https://apnews.com/world-news",
+    "category": "public_news",
+    "is_dynamic": true,
+    "enabled": true,
+    "notes": "Major wire service"
+  },
+  {
+    "id": "e4f5a6b7-c8d9-0123-efab-234567890123",
+    "name": "Reporters Without Borders (RSF)",
+    "url": "https://rsf.org/en/news",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Press freedom NGO"
+  },
+  {
+    "id": "f5a6b7c8-d9e0-1234-fabc-345678901234",
+    "name": "Freedom House – News",
+    "url": "https://freedomhouse.org/reports-and-resources",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Democracy and freedom watchdog"
+  },
+  {
+    "id": "a6b7c8d9-e0f1-2345-abcd-456789012345",
+    "name": "International Committee of the Red Cross (ICRC)",
+    "url": "https://www.icrc.org/en/news",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Humanitarian law and conflict coverage"
+  },
+  {
+    "id": "b7c8d9e0-f1a2-3456-bcde-567890123456",
+    "name": "UNHCR – News",
+    "url": "https://www.unhcr.org/news",
+    "category": "government",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "UN Refugee Agency"
+  },
+  {
+    "id": "c8d9e0f1-a2b3-4567-cdef-678901234567",
+    "name": "UNICEF – Press Releases",
+    "url": "https://www.unicef.org/press-releases",
+    "category": "government",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "UN children's rights agency"
+  },
+  {
+    "id": "d9e0f1a2-b3c4-5678-defa-789012345678",
+    "name": "Middle East Eye – Human Rights",
+    "url": "https://www.middleeasteye.net/tags/human-rights",
+    "category": "public_news",
+    "is_dynamic": true,
+    "enabled": true,
+    "notes": "Middle East focused news"
+  },
+  {
+    "id": "e0f1a2b3-c4d5-6789-efab-890123456789",
+    "name": "Global Voices – Advocacy",
+    "url": "https://globalvoices.org/topics/advocacy/",
+    "category": "public_news",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Citizen journalism with global human rights focus"
+  },
+  {
+    "id": "f1a2b3c4-d5e6-7890-fabc-901234567890",
+    "name": "International Federation for Human Rights (FIDH)",
+    "url": "https://www.fidh.org/en/issues/",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "International human rights federation"
+  },
+  {
+    "id": "a2b3c4d5-e6f7-8901-abcd-012345678902",
+    "name": "Front Line Defenders",
+    "url": "https://www.frontlinedefenders.org/en/news",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Protection of human rights defenders"
+  },
+  {
+    "id": "b3c4d5e6-f7a8-9012-bcde-123456789013",
+    "name": "CIVICUS Monitor",
+    "url": "https://monitor.civicus.org/updates/",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Tracks civic space restrictions globally"
+  },
+  {
+    "id": "c4d5e6f7-a8b9-0123-cdef-234567890124",
+    "name": "Anti-Slavery International",
+    "url": "https://www.antislavery.org/latest/",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Forced labour and modern slavery"
+  },
+  {
+    "id": "d5e6f7a8-b9c0-1234-defa-345678901235",
+    "name": "WITNESS – Blog",
+    "url": "https://blog.witness.org/",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Video documentation of human rights abuses"
+  },
+  {
+    "id": "e6f7a8b9-c0d1-2345-efab-456789012346",
+    "name": "International Criminal Court – News",
+    "url": "https://www.icc-cpi.int/news",
+    "category": "government",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "War crimes and crimes against humanity proceedings"
+  },
+  {
+    "id": "f7a8b9c0-d1e2-3456-fabc-567890123457",
+    "name": "UN News – Human Rights",
+    "url": "https://news.un.org/en/news/topic/human-rights",
+    "category": "government",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Official UN news on human rights"
+  },
+  {
+    "id": "a8b9c0d1-e2f3-4567-abcd-678901234568",
+    "name": "Deutsche Welle – Human Rights",
+    "url": "https://www.dw.com/en/human-rights/t-18954371",
+    "category": "public_news",
+    "is_dynamic": true,
+    "enabled": true,
+    "notes": "German international broadcaster"
+  },
+  {
+    "id": "b9c0d1e2-f3a4-5678-bcde-789012345679",
+    "name": "Radio Free Europe / Radio Liberty",
+    "url": "https://www.rferl.org/",
+    "category": "public_news",
+    "is_dynamic": true,
+    "enabled": true,
+    "notes": "Covers Eastern Europe, Central Asia and Middle East"
+  },
+  {
+    "id": "c0d1e2f3-a4b5-6789-cdef-890123456780",
+    "name": "Justiceinfo.net (ICTJ)",
+    "url": "https://www.justiceinfo.net/en/",
+    "category": "ngo",
+    "is_dynamic": false,
+    "enabled": true,
+    "notes": "Transitional justice and accountability news"
   }
 ]
