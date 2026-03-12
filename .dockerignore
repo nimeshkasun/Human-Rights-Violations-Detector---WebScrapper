@@ -1,0 +1,42 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# Exported CSV data (mounted as a volume at runtime)
+data/exports/
+
+# Scraped HTML pages (mounted as a volume at runtime)
+scraped_pages/
+
+# Log files
+*.log
+hrv_trace.log
+
+# webdriver-manager cache
+.wdm/
+
+# Docker files themselves (no need to copy into image)
+Dockerfile
+docker-compose.yml
+.dockerignore

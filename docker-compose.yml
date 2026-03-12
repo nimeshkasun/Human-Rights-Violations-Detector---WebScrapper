@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  hrv-detector:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hrv-detector:latest
+    container_name: hrv-detector
+
+    # Restart automatically unless you explicitly stop it
+    restart: unless-stopped
+
+    # ── Persist output outside the container ───────────────────────────────────
+    volumes:
+      # Exported CSVs land on your host at ./data/exports/
+      - ./data/exports:/app/data/exports
+      # Optionally persist scraped HTML pages
+      - ./scraped_pages:/app/scraped_pages
+      # Persist sources & settings so you can edit them without rebuilding
+      - ./sources.json:/app/sources.json
+      - ./settings.json:/app/settings.json
+
+    environment:
+      - PYTHONUNBUFFERED=1
+
+    # ── Default: run the scheduler loop ───────────────────────────────────────
+    # To do a one-shot run instead, override via:
+    #   docker compose run --rm hrv-detector python main.py run
+    command: python main.py schedule
